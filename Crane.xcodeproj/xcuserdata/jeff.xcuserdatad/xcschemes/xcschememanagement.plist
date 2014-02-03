@@ -9,6 +9,16 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>OSXSpecs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Specs.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -18,6 +28,16 @@
 			<true/>
 		</dict>
 		<key>1F28C7D6189E5ABA0083E2D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F28C7FA189E5AF70083E2D5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F28C843189E6A4F0083E2D5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

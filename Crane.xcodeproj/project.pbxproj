@@ -8,25 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1F28C7CB189E5ABA0083E2D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7CA189E5ABA0083E2D5 /* Foundation.framework */; };
-		1F28C7D0189E5ABA0083E2D5 /* Crane.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F28C7CF189E5ABA0083E2D5 /* Crane.h */; };
-		1F28C7D2189E5ABA0083E2D5 /* Crane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C7D1189E5ABA0083E2D5 /* Crane.m */; };
-		1F28C7D9189E5ABA0083E2D5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7D8189E5ABA0083E2D5 /* XCTest.framework */; };
-		1F28C7DA189E5ABA0083E2D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7CA189E5ABA0083E2D5 /* Foundation.framework */; };
-		1F28C7DC189E5ABB0083E2D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7DB189E5ABB0083E2D5 /* UIKit.framework */; };
-		1F28C7DF189E5ABB0083E2D5 /* libCrane.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7C7189E5ABA0083E2D5 /* libCrane.a */; };
-		1F28C7E5189E5ABB0083E2D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F28C7E3189E5ABB0083E2D5 /* InfoPlist.strings */; };
-		1F28C7E7189E5ABB0083E2D5 /* CraneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C7E6189E5ABB0083E2D5 /* CraneTests.m */; };
+		1F28C7FC189E5AF70083E2D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7DB189E5ABB0083E2D5 /* UIKit.framework */; };
+		1F28C7FD189E5AF70083E2D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7CA189E5ABA0083E2D5 /* Foundation.framework */; };
+		1F28C7FF189E5AF70083E2D5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7FE189E5AF70083E2D5 /* CoreGraphics.framework */; };
+		1F28C805189E5AF70083E2D5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F28C803189E5AF70083E2D5 /* InfoPlist.strings */; };
+		1F28C807189E5AF70083E2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C806189E5AF70083E2D5 /* main.m */; };
+		1F28C80B189E5AF80083E2D5 /* Cedar-iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C80A189E5AF80083E2D5 /* Cedar-iOS.framework */; };
+		1F28C815189E5BE50083E2D5 /* Crane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C814189E5BE50083E2D5 /* Crane.m */; };
+		1F28C816189E5BE50083E2D5 /* Crane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C814189E5BE50083E2D5 /* Crane.m */; };
+		1F28C819189E5C250083E2D5 /* CraneSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C818189E5C250083E2D5 /* CraneSpec.mm */; };
+		1F28C81D189E5CE50083E2D5 /* CRNHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C81C189E5CE50083E2D5 /* CRNHouse.m */; };
+		1F28C820189E5D020083E2D5 /* CRNDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C81F189E5D020083E2D5 /* CRNDoor.m */; };
+		1F28C823189E5D420083E2D5 /* CRNWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C822189E5D420083E2D5 /* CRNWindow.m */; };
+		1F28C845189E6A4F0083E2D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C7CA189E5ABA0083E2D5 /* Foundation.framework */; };
+		1F28C84B189E6A500083E2D5 /* Cedar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F28C84A189E6A500083E2D5 /* Cedar.framework */; };
+		1F28C84D189E6A500083E2D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C84C189E6A500083E2D5 /* main.m */; };
+		1F28C853189E6A690083E2D5 /* CRNHouse.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C81C189E5CE50083E2D5 /* CRNHouse.m */; };
+		1F28C854189E6A690083E2D5 /* CRNDoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C81F189E5D020083E2D5 /* CRNDoor.m */; };
+		1F28C855189E6A690083E2D5 /* CRNWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C822189E5D420083E2D5 /* CRNWindow.m */; };
+		1F28C856189E6A690083E2D5 /* CraneSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C818189E5C250083E2D5 /* CraneSpec.mm */; };
+		1F28C858189E6A6E0083E2D5 /* Crane.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F28C814189E5BE50083E2D5 /* Crane.m */; };
+		1F28C866189E89E80083E2D5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F28C865189E89E80083E2D5 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1F28C7DD189E5ABB0083E2D5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F28C7BF189E5ABA0083E2D5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F28C7C6189E5ABA0083E2D5;
-			remoteInfo = Crane;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		1F28C7C5189E5ABA0083E2D5 /* CopyFiles */ = {
@@ -35,7 +38,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				1F28C7D0189E5ABA0083E2D5 /* Crane.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +47,29 @@
 		1F28C7C7189E5ABA0083E2D5 /* libCrane.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCrane.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F28C7CA189E5ABA0083E2D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1F28C7CE189E5ABA0083E2D5 /* Crane-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Crane-Prefix.pch"; sourceTree = "<group>"; };
-		1F28C7CF189E5ABA0083E2D5 /* Crane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Crane.h; sourceTree = "<group>"; };
-		1F28C7D1189E5ABA0083E2D5 /* Crane.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Crane.m; sourceTree = "<group>"; };
-		1F28C7D7189E5ABA0083E2D5 /* CraneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CraneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F28C7D8189E5ABA0083E2D5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1F28C7DB189E5ABB0083E2D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		1F28C7E2189E5ABB0083E2D5 /* CraneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CraneTests-Info.plist"; sourceTree = "<group>"; };
-		1F28C7E4189E5ABB0083E2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F28C7E6189E5ABB0083E2D5 /* CraneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CraneTests.m; sourceTree = "<group>"; };
+		1F28C7FB189E5AF70083E2D5 /* Specs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Specs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F28C7FE189E5AF70083E2D5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F28C802189E5AF70083E2D5 /* Specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Specs-Info.plist"; sourceTree = "<group>"; };
+		1F28C804189E5AF70083E2D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F28C806189E5AF70083E2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F28C808189E5AF70083E2D5 /* Specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Specs-Prefix.pch"; sourceTree = "<group>"; };
+		1F28C80A189E5AF80083E2D5 /* Cedar-iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iOS.framework"; path = "Specs/Frameworks/Cedar-iOS.framework"; sourceTree = "<group>"; };
+		1F28C813189E5BE50083E2D5 /* Crane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crane.h; sourceTree = "<group>"; };
+		1F28C814189E5BE50083E2D5 /* Crane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crane.m; sourceTree = "<group>"; };
+		1F28C818189E5C250083E2D5 /* CraneSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CraneSpec.mm; sourceTree = "<group>"; };
+		1F28C81B189E5CE50083E2D5 /* CRNHouse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRNHouse.h; sourceTree = "<group>"; };
+		1F28C81C189E5CE50083E2D5 /* CRNHouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRNHouse.m; sourceTree = "<group>"; };
+		1F28C81E189E5D020083E2D5 /* CRNDoor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRNDoor.h; sourceTree = "<group>"; };
+		1F28C81F189E5D020083E2D5 /* CRNDoor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRNDoor.m; sourceTree = "<group>"; };
+		1F28C821189E5D420083E2D5 /* CRNWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRNWindow.h; sourceTree = "<group>"; };
+		1F28C822189E5D420083E2D5 /* CRNWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRNWindow.m; sourceTree = "<group>"; };
+		1F28C844189E6A4F0083E2D5 /* OSXSpecs */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OSXSpecs; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F28C849189E6A4F0083E2D5 /* OSXSpecs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXSpecs-Prefix.pch"; sourceTree = "<group>"; };
+		1F28C84A189E6A500083E2D5 /* Cedar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cedar.framework; path = Frameworks/Cedar.framework; sourceTree = "<group>"; };
+		1F28C84C189E6A500083E2D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F28C865189E89E80083E2D5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,14 +81,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F28C7D4189E5ABA0083E2D5 /* Frameworks */ = {
+		1F28C7F8189E5AF70083E2D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F28C7D9189E5ABA0083E2D5 /* XCTest.framework in Frameworks */,
-				1F28C7DF189E5ABB0083E2D5 /* libCrane.a in Frameworks */,
-				1F28C7DC189E5ABB0083E2D5 /* UIKit.framework in Frameworks */,
-				1F28C7DA189E5ABA0083E2D5 /* Foundation.framework in Frameworks */,
+				1F28C7FF189E5AF70083E2D5 /* CoreGraphics.framework in Frameworks */,
+				1F28C7FC189E5AF70083E2D5 /* UIKit.framework in Frameworks */,
+				1F28C80B189E5AF80083E2D5 /* Cedar-iOS.framework in Frameworks */,
+				1F28C7FD189E5AF70083E2D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F28C842189E6A4F0083E2D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F28C84B189E6A500083E2D5 /* Cedar.framework in Frameworks */,
+				1F28C845189E6A4F0083E2D5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,8 +107,10 @@
 		1F28C7BE189E5ABA0083E2D5 = {
 			isa = PBXGroup;
 			children = (
+				1F28C865189E89E80083E2D5 /* Default-568h@2x.png */,
 				1F28C7CC189E5ABA0083E2D5 /* Crane */,
-				1F28C7E0189E5ABB0083E2D5 /* CraneTests */,
+				1F28C800189E5AF70083E2D5 /* Specs */,
+				1F28C846189E6A4F0083E2D5 /* OSXSpecs */,
 				1F28C7C9189E5ABA0083E2D5 /* Frameworks */,
 				1F28C7C8189E5ABA0083E2D5 /* Products */,
 			);
@@ -92,7 +120,8 @@
 			isa = PBXGroup;
 			children = (
 				1F28C7C7189E5ABA0083E2D5 /* libCrane.a */,
-				1F28C7D7189E5ABA0083E2D5 /* CraneTests.xctest */,
+				1F28C7FB189E5AF70083E2D5 /* Specs.app */,
+				1F28C844189E6A4F0083E2D5 /* OSXSpecs */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +129,11 @@
 		1F28C7C9189E5ABA0083E2D5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F28C80A189E5AF80083E2D5 /* Cedar-iOS.framework */,
 				1F28C7CA189E5ABA0083E2D5 /* Foundation.framework */,
 				1F28C7D8189E5ABA0083E2D5 /* XCTest.framework */,
 				1F28C7DB189E5ABB0083E2D5 /* UIKit.framework */,
+				1F28C7FE189E5AF70083E2D5 /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -110,8 +141,8 @@
 		1F28C7CC189E5ABA0083E2D5 /* Crane */ = {
 			isa = PBXGroup;
 			children = (
-				1F28C7CF189E5ABA0083E2D5 /* Crane.h */,
-				1F28C7D1189E5ABA0083E2D5 /* Crane.m */,
+				1F28C812189E5BA20083E2D5 /* Public */,
+				1F28C811189E5B9A0083E2D5 /* Private */,
 				1F28C7CD189E5ABA0083E2D5 /* Supporting Files */,
 			);
 			path = Crane;
@@ -125,20 +156,78 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1F28C7E0189E5ABB0083E2D5 /* CraneTests */ = {
+		1F28C800189E5AF70083E2D5 /* Specs */ = {
 			isa = PBXGroup;
 			children = (
-				1F28C7E6189E5ABB0083E2D5 /* CraneTests.m */,
-				1F28C7E1189E5ABB0083E2D5 /* Supporting Files */,
+				1F28C81A189E5C710083E2D5 /* Sample Classes */,
+				1F28C817189E5C020083E2D5 /* Public */,
+				1F28C801189E5AF70083E2D5 /* Supporting Files */,
 			);
-			path = CraneTests;
+			path = Specs;
 			sourceTree = "<group>";
 		};
-		1F28C7E1189E5ABB0083E2D5 /* Supporting Files */ = {
+		1F28C801189E5AF70083E2D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F28C7E2189E5ABB0083E2D5 /* CraneTests-Info.plist */,
-				1F28C7E3189E5ABB0083E2D5 /* InfoPlist.strings */,
+				1F28C802189E5AF70083E2D5 /* Specs-Info.plist */,
+				1F28C803189E5AF70083E2D5 /* InfoPlist.strings */,
+				1F28C806189E5AF70083E2D5 /* main.m */,
+				1F28C808189E5AF70083E2D5 /* Specs-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F28C811189E5B9A0083E2D5 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		1F28C812189E5BA20083E2D5 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				1F28C813189E5BE50083E2D5 /* Crane.h */,
+				1F28C814189E5BE50083E2D5 /* Crane.m */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		1F28C817189E5C020083E2D5 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				1F28C818189E5C250083E2D5 /* CraneSpec.mm */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		1F28C81A189E5C710083E2D5 /* Sample Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1F28C81B189E5CE50083E2D5 /* CRNHouse.h */,
+				1F28C81C189E5CE50083E2D5 /* CRNHouse.m */,
+				1F28C81E189E5D020083E2D5 /* CRNDoor.h */,
+				1F28C81F189E5D020083E2D5 /* CRNDoor.m */,
+				1F28C821189E5D420083E2D5 /* CRNWindow.h */,
+				1F28C822189E5D420083E2D5 /* CRNWindow.m */,
+			);
+			path = "Sample Classes";
+			sourceTree = "<group>";
+		};
+		1F28C846189E6A4F0083E2D5 /* OSXSpecs */ = {
+			isa = PBXGroup;
+			children = (
+				1F28C84A189E6A500083E2D5 /* Cedar.framework */,
+				1F28C84C189E6A500083E2D5 /* main.m */,
+				1F28C848189E6A4F0083E2D5 /* Supporting Files */,
+			);
+			path = OSXSpecs;
+			sourceTree = "<group>";
+		};
+		1F28C848189E6A4F0083E2D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F28C849189E6A4F0083E2D5 /* OSXSpecs-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,23 +252,39 @@
 			productReference = 1F28C7C7189E5ABA0083E2D5 /* libCrane.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1F28C7D6189E5ABA0083E2D5 /* CraneTests */ = {
+		1F28C7FA189E5AF70083E2D5 /* Specs */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F28C7ED189E5ABB0083E2D5 /* Build configuration list for PBXNativeTarget "CraneTests" */;
+			buildConfigurationList = 1F28C80E189E5AF80083E2D5 /* Build configuration list for PBXNativeTarget "Specs" */;
 			buildPhases = (
-				1F28C7D3189E5ABA0083E2D5 /* Sources */,
-				1F28C7D4189E5ABA0083E2D5 /* Frameworks */,
-				1F28C7D5189E5ABA0083E2D5 /* Resources */,
+				1F28C7F7189E5AF70083E2D5 /* Sources */,
+				1F28C7F8189E5AF70083E2D5 /* Frameworks */,
+				1F28C7F9189E5AF70083E2D5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1F28C7DE189E5ABB0083E2D5 /* PBXTargetDependency */,
 			);
-			name = CraneTests;
-			productName = CraneTests;
-			productReference = 1F28C7D7189E5ABA0083E2D5 /* CraneTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
+			name = Specs;
+			productName = Specs;
+			productReference = 1F28C7FB189E5AF70083E2D5 /* Specs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F28C843189E6A4F0083E2D5 /* OSXSpecs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F28C850189E6A500083E2D5 /* Build configuration list for PBXNativeTarget "OSXSpecs" */;
+			buildPhases = (
+				1F28C840189E6A4F0083E2D5 /* ShellScript */,
+				1F28C841189E6A4F0083E2D5 /* Sources */,
+				1F28C842189E6A4F0083E2D5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXSpecs;
+			productName = OSXSpecs;
+			productReference = 1F28C844189E6A4F0083E2D5 /* OSXSpecs */;
+			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
@@ -187,6 +292,7 @@
 		1F28C7BF189E5ABA0083E2D5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CRN;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Jeff Hui";
 			};
@@ -203,54 +309,82 @@
 			projectRoot = "";
 			targets = (
 				1F28C7C6189E5ABA0083E2D5 /* Crane */,
-				1F28C7D6189E5ABA0083E2D5 /* CraneTests */,
+				1F28C7FA189E5AF70083E2D5 /* Specs */,
+				1F28C843189E6A4F0083E2D5 /* OSXSpecs */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1F28C7D5189E5ABA0083E2D5 /* Resources */ = {
+		1F28C7F9189E5AF70083E2D5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F28C7E5189E5ABB0083E2D5 /* InfoPlist.strings in Resources */,
+				1F28C805189E5AF70083E2D5 /* InfoPlist.strings in Resources */,
+				1F28C866189E89E80083E2D5 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F28C840189E6A4F0083E2D5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R \"${TARGET_NAME}\"/Frameworks/Cedar.framework \"${BUILT_PRODUCTS_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1F28C7C3189E5ABA0083E2D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F28C7D2189E5ABA0083E2D5 /* Crane.m in Sources */,
+				1F28C815189E5BE50083E2D5 /* Crane.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F28C7D3189E5ABA0083E2D5 /* Sources */ = {
+		1F28C7F7189E5AF70083E2D5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F28C7E7189E5ABB0083E2D5 /* CraneTests.m in Sources */,
+				1F28C81D189E5CE50083E2D5 /* CRNHouse.m in Sources */,
+				1F28C823189E5D420083E2D5 /* CRNWindow.m in Sources */,
+				1F28C816189E5BE50083E2D5 /* Crane.m in Sources */,
+				1F28C819189E5C250083E2D5 /* CraneSpec.mm in Sources */,
+				1F28C807189E5AF70083E2D5 /* main.m in Sources */,
+				1F28C820189E5D020083E2D5 /* CRNDoor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F28C841189E6A4F0083E2D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F28C855189E6A690083E2D5 /* CRNWindow.m in Sources */,
+				1F28C84D189E6A500083E2D5 /* main.m in Sources */,
+				1F28C853189E6A690083E2D5 /* CRNHouse.m in Sources */,
+				1F28C858189E6A6E0083E2D5 /* Crane.m in Sources */,
+				1F28C856189E6A690083E2D5 /* CraneSpec.mm in Sources */,
+				1F28C854189E6A690083E2D5 /* CRNDoor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		1F28C7DE189E5ABB0083E2D5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F28C7C6189E5ABA0083E2D5 /* Crane */;
-			targetProxy = 1F28C7DD189E5ABB0083E2D5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		1F28C7E3189E5ABB0083E2D5 /* InfoPlist.strings */ = {
+		1F28C803189E5AF70083E2D5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1F28C7E4189E5ABB0083E2D5 /* en */,
+				1F28C804189E5AF70083E2D5 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -284,7 +418,9 @@
 					"$(inherited)",
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -316,7 +452,9 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -352,41 +490,91 @@
 			};
 			name = Release;
 		};
-		1F28C7EE189E5ABB0083E2D5 /* Debug */ = {
+		1F28C80F189E5AF80083E2D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SRCROOT)/Specs/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Crane/Crane-Prefix.pch";
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "CraneTests/CraneTests-Info.plist";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		1F28C7EF189E5ABB0083E2D5 /* Release */ = {
+		1F28C810189E5AF80083E2D5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(SRCROOT)/Specs/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Crane/Crane-Prefix.pch";
-				INFOPLIST_FILE = "CraneTests/CraneTests-Info.plist";
+				GCC_PREFIX_HEADER = "Specs/Specs-Prefix.pch";
+				INFOPLIST_FILE = "Specs/Specs-Info.plist";
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-lstdc++",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = xctest;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F28C851189E6A500083E2D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/OSXSpecs/Frameworks",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXSpecs/OSXSpecs-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F28C852189E6A500083E2D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/OSXSpecs/Frameworks",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXSpecs/OSXSpecs-Prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 			};
 			name = Release;
 		};
@@ -409,14 +597,25 @@
 				1F28C7EC189E5ABB0083E2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		1F28C7ED189E5ABB0083E2D5 /* Build configuration list for PBXNativeTarget "CraneTests" */ = {
+		1F28C80E189E5AF80083E2D5 /* Build configuration list for PBXNativeTarget "Specs" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F28C7EE189E5ABB0083E2D5 /* Debug */,
-				1F28C7EF189E5ABB0083E2D5 /* Release */,
+				1F28C80F189E5AF80083E2D5 /* Debug */,
+				1F28C810189E5AF80083E2D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F28C850189E6A500083E2D5 /* Build configuration list for PBXNativeTarget "OSXSpecs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F28C851189E6A500083E2D5 /* Debug */,
+				1F28C852189E6A500083E2D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
